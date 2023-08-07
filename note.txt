@@ -1,0 +1,27 @@
+1. app/ Directory (Root Directory for Next.js App):
+===================================================
+    -> app folder is the starter folder of nextjs project. Like home page. This folder contains a layout.js file and a page.js. if we want to create route, we can simply create a folder inside app folder, each folder have to contains page.js file. 
+
+2. public/:
+===========
+    -> This directory contains static assets like images, fonts, and favicon.ico. They are served as-is and can be referenced directly from your components.
+
+3. src/:
+========
+    -> The main source code directory where most of your application logic resides. App folder placed inside this folder.
+
+4. components/:
+===============
+    -> This directory contains reusable UI components that you can use across different pages. Organizing components separately makes your code more modular and maintainable.
+
+5. .next: 
+=========
+    -> after buid the nextjs project this file will generate. inside this file we will get js and css files.
+
+6. node_modules/: 
+=================
+    -> This folder contains all the dependencies installed via npm or yarn.
+
+7. next.config.js:
+==================
+    -> The next.config.js file in a Next.js project is a configuration file that allows us to customize various aspects of your Next.js application. It's a powerful tool for modifying build, runtime, and development behaviors.
